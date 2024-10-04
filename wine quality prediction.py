@@ -11,7 +11,7 @@ from sklearn.svm import SVC
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix, ConfusionMatrixDisplay
 
 # Load dataset
-df = pd.read_csv("E:/oasis internship/WineQT.csv")
+df = pd.read_csv("your csv file")
 
 # Data Exploration
 print(df.head())
